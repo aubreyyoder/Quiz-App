@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock Climbing Quiz App</title>
+    <meta name="description" content="Do you have what it takes to climb EL CAPITAN?!">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Metrophobic" rel="stylesheet">
+  </head>
+  <body>
+    <header role="header">
+      <a href= "index.html">
+        <p><img src="https://i.pinimg.com/originals/9f/8c/f2/9f8cf209684c2c8fedf788d500ddd984.png" alt= "caribiner-logo" id= "logo"/></p>
+      </a>
+      <p><h1 id= "question">Question:<span class= "question-number">0</span>/10</h1>
+      <h1 id= "score">Score:<span class="js-score">0</span>/100</h1></p>
+    </header>
+    <main class="climbing-quiz js-climbing-quiz" role="main">
+      <div id="landing" class="js-rock-climbing-quiz">
+        <h1>Do you have what it takes to climb El Capitan?!</h1>
+        <button type= "button" id="js-start-quiz">Take the test</button>
+      </div>
+      <div id="content" style="display: none;">
+      </div>
+    </main>
+    <footer role="bottom-design">
+      <img class= "mountain-range" src= "http://i1378.photobucket.com/albums/ah114/aubreyyoder/vector-hand-drawn-mountains-outline-sketch-drawings-isolated-light-background-120012489_zps9uayl1zl.jpg?t=1549092960" alt= "mountain-range" />
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="datastore.js"></script>
+    <script src="index.js"></script>
+</html>
