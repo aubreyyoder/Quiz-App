@@ -263,7 +263,7 @@ const STORE= [
 
   function increaseQuestionNumber() {
     questionNumber++
-    $('.questionNumber').text(questionNumber + 1);
+    $('.question-number').text(questionNumber + 1);
   }
 
   function restartQuiz() {

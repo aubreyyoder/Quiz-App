@@ -1,12 +1,12 @@
-body {
-    background-color: rgba(185, 160, 115, 0.24);
+  body {
+    background-color: rgba(185, 160, 115, 0.11);
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
   }
   
   #logo {
-    height: 150px;
-    width: 150px;
+    height: 80px;
+    width: 100px;
     margin-right: 20px;
   }
   
